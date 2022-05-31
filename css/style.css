@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Suravaram&display=swap');
+
+body {
+    font-family: 'Suravaram', serif;;
+    background: rgb(217,51,63);
+    background: linear-gradient(345deg, rgba(217,51,63,1) 0%, rgba(246,108,250,1) 100%);
+}
+@media (min-width: 0px) and (max-width: 425px) {
+    body {
+        height: 100%;
+    }
+
+    #formulario {
+        width: 380px;
+        height: 320px;
+    }
+
+    .btn-success {
+        margin-top: 50px;
+        width: 300px;
+        margin: 0px 10%;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .produto {
+        width: 425px;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .infoProduto {
+        width: 150px;
+        height: 500px;
+        text-align: center;
+    }
+    
+    .infoProduto h3 {
+        margin: 40px 0px;
+        font-size: 30px;
+    }
+    .infoProduto p {
+        font-size: 20px;
+    }
+    
+    .imgProduto {
+        margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
+@media (min-width: 426px) {
+    #formulario {
+        width: 500px;
+        height: 350px;
+    }
+
+    .btn-success {
+        margin-top: 50px;
+        width: 300px;
+        margin: 0px 20%;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .produto {
+        width: 600px;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .infoProduto {
+        width: 280px;
+        height: 500px;
+        text-align: center;
+    }
+    
+    .infoProduto h3 {
+        margin: 70px 0px;
+        font-size: 40px;
+    }
+    .infoProduto p {
+        font-size: 30px;
+    }
+    
+    .imgProduto {
+        width: 320px;
+        height: 500px;
+        margin-top: 25px;
+    }
+    
+}
+
+.titulo {
+    font-size: 75px;
+    text-align: center;
+}
+
+.subTitulo {
+    font-size: 40px;
+    text-align: center;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.section-form {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloLabel {
+    font-size: 25px;
+}
+
+
+
